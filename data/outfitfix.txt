@@ -1,4 +1,4 @@
-# Copyright (c) 2019 by Anarchist2. Original stats by Tommaso Becca, Zitchas
+# Copyright (c) 2019 by Anarchist2. Original stats by Tommaso Becca, Zitchas, Michael Zahniser
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -190,16 +190,16 @@ outfit "Bellows-Class Afterburner"
 	"afterburner heat" 8.0
 	"afterburner effect" "remnant afterburner"
 
-# Unchanged mass due to lore
+# Description becomes slightly inaccurate
 outfit "Inhibitor Turret"
 	category "Turrets"
 	licenses
 		Remnant
 	cost 1371000
 	thumbnail "outfit/inhibitor turret"
-	"mass" 42
-	"outfit space" -28
-	"weapon capacity" -28
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
 	"required crew" 1
 	"turret mounts" -1
 	weapon
@@ -224,3 +224,37 @@ outfit "Inhibitor Turret"
 		"hull damage" 19.5
 		"hit force" 39
 		"slowing damage" .5
+
+outfit "KP-6 Photovoltaic Panel"
+	category "Power"
+	cost 7000
+	thumbnail "outfit/tiny photovoltaic"
+	"mass" 2
+	"outfit space" -2
+	"solar collection" .1
+
+outfit "KP-6 Photovoltaic Array"
+	category "Power"
+	cost 60000
+	thumbnail "outfit/small photovoltaic"
+	"mass" 16
+	"outfit space" -16
+	"solar collection" 1.1
+
+outfit "Bunk Room"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/bunk room"
+	"mass" 20
+	"bunks" 4
+	"outfit space" -20
+	unplunderable 1
+
+outfit "Small Bunk Room"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/small bunk room"
+	"mass" 12
+	"bunks" 2
+	"outfit space" -12
+	unplunderable 1
