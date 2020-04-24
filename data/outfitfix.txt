@@ -1,0 +1,226 @@
+# Copyright (c) 2019 by Anarchist2. Original stats by Tommaso Becca, Zitchas
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Ka'het Ravager Beam"
+	category "Guns"
+	cost 322000
+	thumbnail "outfit/ka'het ravager beam"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		sprite "projectile/ravager beam"
+			"frame rate" 15
+		sound "disruptor"
+		"hit effect" "ravager impact"
+		"inaccuracy" .2
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.7
+		"firing heat" 1.5
+		"shield damage" 1.8
+		"hull damage" 4.3
+
+outfit "Ka'het Ravager Turret"
+	category "Turrets"
+	cost 417000
+	thumbnail "outfit/ka'het ravager turret"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ravager beam"
+			"frame rate" 15
+		"hardpoint sprite" "hardpoint/ravager turret"
+		"hardpoint offset" 3.
+		sound "disruptor"
+		"hit effect" "ravager impact"
+		"inaccuracy" .2
+		"turret turn" 1.8
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.7
+		"firing heat" 1.5
+		"shield damage" 1.8
+		"hull damage" 4.3
+
+outfit "Ka'het Annihilator"
+	category "Guns"
+	cost 351000
+	thumbnail "outfit/ka'het annihilator"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		sprite "projectile/annihilator"
+			"frame rate" 7
+		sound "inhibitor"
+		"hit effect" "bullet impact"
+		"inaccuracy" 2.5
+		"velocity" 18
+		"lifetime" 35
+		"reload" 10
+		"firing energy" 31
+		"firing heat" 8
+		"shield damage" 43
+		"hull damage" 12
+
+outfit "Ka'het Annihilator Turret"
+	category "Turrets"
+	cost 529000
+	thumbnail "outfit/ka'het annihilator turret"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	weapon
+		sprite "projectile/annihilator"
+			"frame rate" 7
+		"hardpoint sprite" "hardpoint/annihilator turret"
+		"hardpoint offset" 15.
+		sound "inhibitor"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"turret turn" 2.3
+		"velocity" 18
+		"lifetime" 35
+		"reload" 10
+		"firing energy" 62
+		"firing heat" 16
+		"shield damage" 86
+		"hull damage" 24
+	description "The Builders mounted two Annihilators on this turret, making it highly efficent against enemy shields."
+
+# Mass is lower to account for the weight of the ammo
+outfit "Ka'het EMP Deployer"
+	category "Secondary Weapons"
+	cost 715000
+	thumbnail "outfit/ka'het emp deployer"
+	"mass" 10
+	"outfit space" -26
+	"weapon capacity" -26
+	"gun ports" -1
+	"emp torpedo capacity" 16
+	weapon
+		sprite "projectile/emp torpedo"
+			"frame rate" 2
+			"no repeat"
+		sound "torpedo"
+		ammo "EMP Torpedo"
+		icon "icon/emp"
+		"fire effect" "emp torpedo fire" 5
+		"hit effect" "nuke explosion"
+		"hit effect" "emp ring" 30
+		"hit effect" "emp spark" 20
+		"die effect" "tiny explosion"
+		stream
+		"reload" 180
+		"firing energy" 540
+		"firing heat" 11
+		"inaccuracy" 4
+		"lifetime" 300
+		"velocity" 7
+		"acceleration" .7
+		"drag" .1
+		"turn" 2
+		"homing" 3
+		"infrared tracking" .7
+		"radar tracking" .8
+		"trigger radius" 50
+		"blast radius" 200
+		"shield damage" 700
+		"hull damage" 100
+		"ion damage" 48
+		"hit force" 90
+		"missile strength" 80
+
+outfit "Ka'het Support Cooling"
+	category "Systems"
+	cost 218000
+	thumbnail "outfit/ka'het support cooling"
+	"mass" 8
+	"outfit space" -8
+	"active cooling" 32
+	"cooling energy" 3.1
+	description "While the cooling on a typical ship only needs to worry about keeping the crew comfortable in certain areas, the entirety of a Ka'het ship needs to maintain a suitable temperature for the Het inside to survive."
+
+
+outfit "Ka'het Primary Cooling"
+	category "Systems"
+	cost 563000
+	thumbnail "outfit/ka'het primary cooling"
+	"mass" 14
+	"outfit space" -14
+	"active cooling" 65
+	"cooling energy" 5.9
+	description "This is the main cooler used by the Ka'het. Although energy intensive, it is very effective, capable of single-handedly cooling some Het."
+
+outfit "Ka'het Shield Restorer"
+	category "Systems"
+	cost 138000
+	thumbnail "outfit/ka'het shield restorer"
+	"mass" 19
+	"outfit space" -19
+	"shield generation" 1.02
+	"shield energy" 2.04
+	description "The Builders never relied much on shield matrices, preferring instead to strengthen their hull. The reality of war, however, required that the Builders to develop strong shield technology, leading to some Het vessels making extensive use of this module."
+
+outfit "Bellows-Class Afterburner"
+	category "Engines"
+	"cost" 640000
+	thumbnail "outfit/remnant afterburner"
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"afterburner thrust" 153.0
+	"afterburner fuel" 2.0
+	"afterburner energy" 6.0
+	"afterburner heat" 8.0
+	"afterburner effect" "remnant afterburner"
+
+# Unchanged mass due to lore
+outfit "Inhibitor Turret"
+	category "Turrets"
+	licenses
+		Remnant
+	cost 1371000
+	thumbnail "outfit/inhibitor turret"
+	"mass" 42
+	"outfit space" -28
+	"weapon capacity" -28
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/inhibitor"
+			"frame rate" 10
+			"no repeat"
+		"hardpoint sprite" "hardpoint/inhibitor turret"
+		"hardpoint offset" 6.
+		sound "inhibitor"
+		"hit effect" "inhibitor impact" 3
+		"inaccuracy" .5
+		"turret turn" 3.5
+		"velocity" 36
+		"random velocity" .5
+		"lifetime" 24
+		"reload" 6.5
+		"cluster"
+		"firing energy" 26
+		"firing heat" 45.5
+		"firing force" 13
+		"shield damage" 26
+		"hull damage" 19.5
+		"hit force" 39
+		"slowing damage" .5
