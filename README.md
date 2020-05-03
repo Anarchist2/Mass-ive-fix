@@ -5,10 +5,11 @@ Changelist:
 - Ka'het EMP Deployer mass from 18 to 10
 - Support Cooling mass from 6 to 8
 - Primary Cooling mass from 11 to 14
-- Sheild Restorer mass from 15 to 19
+- Shield Restorer mass from 15 to 19
 - Inhibitor turret weapon capacity from -22 to -28
+- Photovoltaic Panel masses from 22 and 3 to 16 and 2
+- Collector masses from 28 and 8 to 21 and 6
 
 Not changed:
 - Missile Launcher mass: The ammo compensates for the reduced mass
 - Inhibitor Turret mass: It's lored as being "outside" the mount
-- Solar Panel mass: Most of the mass would be on the outside of the ship

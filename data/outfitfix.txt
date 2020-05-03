@@ -1,4 +1,4 @@
-# Copyright (c) 2019 by Anarchist2. Original stats by Tommaso Becca, Zitchas
+# Copyright (c) 2019 by Anarchist2. Original stats by Tommaso Becca, Zitchas, Michael Zahniser
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -224,3 +224,41 @@ outfit "Inhibitor Turret"
 		"hull damage" 19.5
 		"hit force" 39
 		"slowing damage" .5
+
+outfit "KP-6 Photovoltaic Panel"
+	category "Power"
+	cost 7000
+	thumbnail "outfit/tiny photovoltaic"
+	"mass" 2
+	"outfit space" -2
+	"solar collection" .1
+
+outfit "KP-6 Photovoltaic Array"
+	category "Power"
+	cost 60000
+	thumbnail "outfit/small photovoltaic"
+	"mass" 16
+	"outfit space" -16
+	"solar collection" 1.1
+
+outfit "Small Collector Module"
+	category "Power"
+	licenses
+		Coalition
+	cost 60000
+	thumbnail "outfit/small collector module"
+	"mass" 6
+	"outfit space" -6
+	"solar collection" .8
+	"heat generation" .4
+
+outfit "Large Collector Module"
+	category "Power"
+	licenses
+		Coalition
+	cost 300000
+	thumbnail "outfit/large collector module"
+	"mass" 21
+	"outfit space" -21
+	"solar collection" 3.3
+	"heat generation" 1.5
