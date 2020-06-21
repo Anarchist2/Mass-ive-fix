@@ -103,6 +103,23 @@ outfit "Ka'het Annihilator Turret"
 		"hull damage" 24
 	description "The Builders mounted two Annihilators on this turret, making it highly efficent against enemy shields."
 
+outfit "Ka'het MHD Generator"
+	category "Power"
+	cost 1263000
+	thumbnail "outfit/ka'het mhd generator"
+	"mass" 22
+	"outfit space" -22
+	"energy generation" 3.8
+	"heat generation" 5.8
+
+outfit "Ka'het Reserve Accumulator"
+	category "Power"
+	cost 27000
+	thumbnail "outfit/ka'het reserve accumulator"
+	"mass" 1
+	"outfit space" -3
+	"energy capacity" 600
+
 # Mass is lower to account for the weight of the ammo
 outfit "Ka'het EMP Deployer"
 	category "Secondary Weapons"
