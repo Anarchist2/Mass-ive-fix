@@ -2,6 +2,7 @@
 Changelist:
 - Ravager Beam mass from 13 to 18, Ravager Turret mass from 16 to 22
 - Annihilator mass from 10 to 14, Annihilator Turret mass from 25 to 32
+- Ka'het MHD Generator mass from 20 to 22, Ka'het Reserve Accumulator mass from 2 to 3
 - Ka'het EMP Deployer mass from 18 to 10
 - Support Cooling mass from 6 to 8
 - Primary Cooling mass from 11 to 14

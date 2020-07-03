@@ -101,24 +101,6 @@ outfit "Ka'het Annihilator Turret"
 		"firing heat" 16
 		"shield damage" 86
 		"hull damage" 24
-	description "The Builders mounted two Annihilators on this turret, making it highly efficent against enemy shields."
-
-outfit "Ka'het MHD Generator"
-	category "Power"
-	cost 1263000
-	thumbnail "outfit/ka'het mhd generator"
-	"mass" 22
-	"outfit space" -22
-	"energy generation" 3.8
-	"heat generation" 5.8
-
-outfit "Ka'het Reserve Accumulator"
-	category "Power"
-	cost 27000
-	thumbnail "outfit/ka'het reserve accumulator"
-	"mass" 1
-	"outfit space" -3
-	"energy capacity" 600
 
 # Mass is lower to account for the weight of the ammo
 outfit "Ka'het EMP Deployer"
@@ -171,7 +153,6 @@ outfit "Ka'het Support Cooling"
 	"outfit space" -8
 	"active cooling" 32
 	"cooling energy" 3.1
-	description "While the cooling on a typical ship only needs to worry about keeping the crew comfortable in certain areas, the entirety of a Ka'het ship needs to maintain a suitable temperature for the Het inside to survive."
 
 
 outfit "Ka'het Primary Cooling"
@@ -182,7 +163,6 @@ outfit "Ka'het Primary Cooling"
 	"outfit space" -14
 	"active cooling" 65
 	"cooling energy" 5.9
-	description "This is the main cooler used by the Ka'het. Although energy intensive, it is very effective, capable of single-handedly cooling some Het."
 
 outfit "Ka'het Shield Restorer"
 	category "Systems"
@@ -192,7 +172,23 @@ outfit "Ka'het Shield Restorer"
 	"outfit space" -19
 	"shield generation" 1.02
 	"shield energy" 2.04
-	description "The Builders never relied much on shield matrices, preferring instead to strengthen their hull. The reality of war, however, required that the Builders to develop strong shield technology, leading to some Het vessels making extensive use of this module."
+
+outfit "Ka'het MHD Generator"
+	category "Power"
+	cost 1263000
+	thumbnail "outfit/ka'het mhd generator"
+	"mass" 22
+	"outfit space" -22
+	"energy generation" 3.8
+	"heat generation" 5.8
+
+outfit "Ka'het Reserve Accumulator"
+	category "Power"
+	cost 27000
+	thumbnail "outfit/ka'het reserve accumulator"
+	"mass" 3
+	"outfit space" -3
+	"energy capacity" 600
 
 outfit "Bellows-Class Afterburner"
 	category "Engines"
